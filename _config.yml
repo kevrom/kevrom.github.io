@@ -5,11 +5,11 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Dysfunctional Programming
-tagline:             'A Blog & Portfolio'
-description:         'A simple blog and portfolio to help others learn what I\'ve learned'
+title:               'Dysfunctional Programming'
+tagline:             'A Blog & Portfolio for Kevin Romano'
+description:         'A simple blog and portfolio to help others learn what I have learned'
 url:                 http://kevrom.com
-baseurl:             '/'
+baseurl:             ''
 paginate:            5
 
 # About/contact
