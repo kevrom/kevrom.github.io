@@ -1,19 +1,22 @@
-# Welcome to Jekyll!
+# Permalinks
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Site settings
-title: Functionally Dysfunctional
-email: kevrom@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  A portfolio and blog for Kevin Romano.  Musings and explanations and projects and fun.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://kevrom.com" # the base hostname & protocol for your site
-twitter_username: kevrom
-github_username:  kevrom
+# Setup
+title:               Dysfunctional Programming
+tagline:             'A Blog & Portfolio'
+description:         'A simple blog and portfolio to help others learn what I\'ve learned'
+url:                 http://kevrom.com
+baseurl:             '/'
+paginate:            5
 
-# Build settings
-markdown: kramdown
+# About/contact
+author:
+  name:              Kevin Romano
+  url:               https://twitter.com/kevrom
+  email:             kevrom@gmail.com
+
+# Custom vars
+version:             1.0.0
